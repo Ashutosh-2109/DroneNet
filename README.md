@@ -30,27 +30,6 @@ Birds are chosen as the negative class because they are the **most common real-w
 - Industry-standard baseline CNN
 
 ---
-
-## 📂 Project Structure
-```text
-drone_detection/
-│
-├── raw_data/                 # Original images
-│   ├── bird/
-│   └── drone/
-│
-├── data/                     # Segregated dataset
-│   ├── train/
-│   ├── val/
-│   └── test/
-│
-├── train.py                  # Model training script
-├── split_data.py             # Dataset splitting script
-├── test_image.py             # Single image inference
-├── drone_bird_resnet18.pth   # Trained model weights
-├── requirements.txt
-└── README.md
-
 📊 Dataset Preparation
 
 The dataset is automatically split into:
@@ -72,5 +51,27 @@ If you want, I can also:
 - Add **results table + confusion matrix**
 - Make a **resume-ready project description**
 - Prepare **viva / interview answers**
+---
+## 📂 Project Structure
+```text
+drone_detection/
+│
+├── raw_data/                 # Original images
+│   ├── bird/
+│   └── drone/
+│
+├── data/                     # Segregated dataset
+│   ├── train/
+│   ├── val/
+│   └── test/
+│
+├── train.py                  # Model training script
+├── split_data.py             # Dataset splitting script
+├── test_image.py             # Single image inference
+├── drone_bird_resnet18.pth   # Trained model weights
+├── requirements.txt
+└── README.md
+
+
 
 Just tell me 👍
